@@ -1,0 +1,287 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+  /*  background-image: linear-gradient(navajowhite,lightskyblue);*/
+    background-image: radial-gradient(lightcyan,lightskyblue);
+}
+
+
+
+.header-section{
+margin-top: 2rem;
+    /*padding-top: 1.9rem;*/
+    font-family: "monospace";
+  /*  background-image: linear-gradient(yellow,blue);*/
+  /*  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+    background-repeat: no-repeat;*/
+
+
+
+}
+
+
+.header-section .nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-section .nav-bar button{
+
+    padding: 0 1rem 0 1rem;
+    width: 11rem;
+    color:blue;
+    border-radius: 0.23rem;
+    background-color: #ebf1fe;
+    opacity: 5%;
+    border: none;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 0.89rem;
+    cursor: pointer;
+}
+/**************************************************/
+
+.header-section .welcome-message{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    font-family: 'Tajawal', sans-serif;
+    align-items: center;
+    padding-right:7rem;
+
+}
+
+
+.header-section .welcome-message .welcome-text h1{
+font-size: 3rem;
+    font-family: 'Tajawal', sans-serif;
+    color: #11141f;
+
+}
+
+
+
+.header-section .welcome-message .welcome-text p{
+    color:#868689;
+    font-size: 1.25rem;
+    margin-bottom:4rem;
+
+}
+
+.header-section .welcome-message .welcome-text button{
+
+    background-color: #1848dd;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    padding: 1.3rem 1.3rem 1.3rem 1.3rem;
+    width: 19rem;
+    border: none;
+    border-radius: 0.36rem;
+  font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    transition: background-color,0.4s;
+
+
+
+
+}
+
+
+
+.header-section .welcome-message .welcome-text button:hover{
+    background-color: dodgerblue;
+    border-radius: 3rem;
+    padding: 1rem;
+
+}
+
+
+
+.header-section .welcome-message .welcome-image img{
+  width:34rem;
+
+}
+/**************************end of section one*******************************************/
+.feature-section {
+text-align: center;
+    margin-top: 12rem;
+    margin-bottom: 7rem;
+
+}
+
+.feature-section .section-title{
+    font-size: 2.70rem;
+    font-weight: 700;
+    color: #11141f;
+    margin-bottom:1rem;
+    line-height:1.29;
+
+
+}
+
+.feature-section .section-title span{
+    color: blue;
+}
+
+
+.feature-section .section-descripion{
+    font-weight: 500;
+    font-size: 1.065rem;
+    padding-top: 0.8rem;
+    color: #7C7D8D;
+margin-bottom: 3rem;
+    line-height:1.3;
+
+}
+
+.feature-section .row-of-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7rem;
+
+}
+.feature-section .row-of-cards .feature-card{
+
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    }
+
+
+.feature-section .row-of-cards .feature-card .icon{
+    background-color: blue;
+    width: 135px;
+  height: 135px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+   }
+
+.feature-section .row-of-cards .feature-card .icon i{
+    color: white;
+  font-size: 4rem;
+
+}
+
+
+.feature-section .row-of-cards .feature-card .card-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1.25rem 0 1.25rem 0;
+    color: #11141f;
+
+}
+
+.feature-section .row-of-cards .feature-card .line{
+    width: 90px;
+    height: 3px;
+    background-color: #1848dd;
+
+}
+
+.feature-section .row-of-cards .feature-card  p{
+    font-weight: 500;
+    font-size: 1.065rem;
+    padding-top: 0.8rem;
+    color: #7C7D8D;
+    margin-bottom: 3rem;
+    line-height:1.3;
+
+
+}
+
+/********************************end of section two************************/
+
+/** start of third section**/
+
+.credit-section{
+    background: #264eee;
+    color: white;
+    padding: 8rem 1rem 8rem 3rem;
+    margin-bottom: 3rem;
+}
+
+.credit-section .flex-only{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.credit-section .section-image img{
+    width: 30rem;
+    margin-left:2rem;
+
+}
+
+.credit-section .section-texts .title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    line-height: 1.29;
+}
+
+.credit-section .section-texts .long-text{
+    opacity: .8;
+    font-size: 1.0625rem;
+
+}
+
+.credit-section .section-texts .row-of-cards .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 3rem;
+}
+
+.credit-section .section-texts .row-of-cards .card .card-image i{
+    font-size:3rem;
+}
+
+
+.credit-section .section-texts .row-of-cards .card .card-texts .card-title{
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 0.75;
+}
+
+.credit-section .section-texts .row-of-cards .card .card-texts p{
+    opacity: .8;
+    font-size: 1.0625rem;
+}
+
+/** end of third section**/
+
+
+
+
+
+
+.container{
+    max-width: 1210px;
+    margin: auto;
+
+}
+
+.small-container{
+
+    max-width: 1000px;
+    margin: auto;
+}
+
